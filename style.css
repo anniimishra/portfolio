@@ -3,6 +3,7 @@
     text-decoration: none;
     background-color: black;
     color: burlywood;
+    
 }
 
 nav ul {
@@ -17,7 +18,7 @@ nav p {
     margin-left: 20px;
     position: absolute;
     top: -11px;
-    
+
 }
 
 nav ul li a div {
@@ -33,19 +34,53 @@ nav ul li a:hover div {
     background-color: red;
 
 }
-.first{
+
+.first {
     margin: 20% 0 0 -12%;
     font-size: 50px;
     font-weight: bolder;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    
 }
 
-.first span{
-    font-size: 30px;  
+.first span {
+    font-size: 30px;
 }
-#ani{
+
+#ani {
     width: 85%;
     height: 70%;
     margin: 50px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 5px 5px 5px;
+
+}
+
+.second div {
+
+    margin: 2px;
+    border: 2px solid red;
+    width: 15%;
+    padding: 50px;
+    border-radius: 5px;
+    
+}
+.second div:hover{
+    background-color:rgb(56, 0, 0);
+    transition: 2s;
+    box-shadow: 10px 10px white;
+}
+.second div:hover h3{
+    background-color:rgb(56, 0, 0);
+    transition: 2s;
+}
+.second div:hover p{
+    background-color:rgb(56, 0, 0);
+    transition: 2s;
 }
