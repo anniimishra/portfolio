@@ -10,11 +10,12 @@ nav ul {
     display: flex;
     justify-content: space-between;
     margin: 0 5% 0 30%;
+    font-size: 3vmin;
 
 }
 
 nav p {
-    font-size: 30px;
+    font-size: 4vmin;
     margin-left: 20px;
     position: absolute;
     top: -11px;
@@ -35,38 +36,39 @@ nav ul li a:hover div {
 
 }
 
-.first {
+#first {
     margin: 20% 0 0 -12%;
-    font-size: 50px;
-    font-weight: bolder;
+    font-size: 8vmin;
+    font-weight: bold ;
     display: flex;
     justify-content: space-evenly;
     
 }
 
-.first span {
-    font-size: 30px;
+#first span {
+    font-size: 6vmin;
 }
 
 #ani {
     width: 85%;
     height: 70%;
     margin: 50px;
+    border-radius: 10px;
 }
 
 .second {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 5px 5px 5px;
+    margin: 0 5px 30% 5px;
 
 }
 
 .second div {
 
-    margin: 2px;
+    margin: 5px;
     border: 2px solid red;
-    width: 15%;
+    width: 25%;
     padding: 50px;
     border-radius: 5px;
     
@@ -83,4 +85,48 @@ nav ul li a:hover div {
 .second div:hover p{
     background-color:rgb(56, 0, 0);
     transition: 2s;
+}
+#about{
+    margin:0 5px 30% 5px ;
+    padding: 50px;
+}
+#about p{
+    font-size: 5vmin;
+}
+#contact{
+    background-color: rgb(79, 42, 42);
+    height: 40vmin;
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+#contact p{
+    background-color: rgb(79, 42, 42);
+    
+}
+#contact p a{
+    background-color: rgb(79, 42, 42);
+}
+@media only screen and (max-width: 1000px){
+   #first{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+   }
+   pre{
+    position: relative;
+    bottom: 110px;
+    right: 75px;
+   }
+   .second div{
+    width: 100%;
+   }
+   #ani{
+    width: 100%;
+   }
+   
 }
